@@ -1,0 +1,70 @@
+#sidebar {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex: 2;
+}
+
+#sidebar>div,
+input {
+    cursor: pointer;
+    padding: 10px;
+    margin: 15px 10px;
+    border: 2px solid red;
+    border-radius: 4px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+}
+
+#main {
+    flex: 8;
+    border: 2px solid black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Div-container {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 15px auto;
+    cursor: pointer;
+}
+
+.Div-container>img {
+    margin-left: 25px;
+    width: 40%;
+}
+
+.Div-container>div {
+    text-align: center;
+    align-self: center;
+    width: 25%;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.Div-container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.Div-container2>div {
+    text-align: center;
+    align-self: center;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
